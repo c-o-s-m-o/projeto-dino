@@ -1,0 +1,83 @@
+@keyframes estrelas {
+    from {
+        background-position: 7000%;
+    }
+    to {
+        background-position: 0;
+    }
+}
+
+
+.estrelas {
+    position: absolute;
+    bottom: 0;
+    background-image: url(estrelas.gif);
+    background-repeat: repeat-x;
+    animation: slideright 900s infinite linear;
+    width: 100%;
+    height: 600px;
+}
+
+@keyframes body {
+    from {
+        background-position: 7000%;
+    }
+    to {
+        background-position: 0;
+    }
+}
+
+
+.body {
+    position: absolute;
+    bottom: 0;
+    background-image: url(black-and-white-skyline-hi.png);
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    width: 100%;
+    height: 200px;
+}
+
+.dino{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    background-image: url(homem-imagem-animada-0394.gif);
+
+}
+
+.cactus {
+    position: absolute;
+    width: 70px;
+    height: 94px;
+    bottom: 0;
+    background-image: url(homem-imagem-animada-0387.gif);
+}
+
+.game-over {
+    text-align: center;
+    color: maroon;
+    margin-top: 50px;
+    font-family: arial;
+}
+
+@keyframes slideright {
+    from {
+        background-position: 7000%;
+    }
+    to {
+        background-position: 0;
+    }
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    background-image: url(cidade-imagem-animada-0009.gif);
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    width: 100%;
+    height: 70px;
+    
+}
